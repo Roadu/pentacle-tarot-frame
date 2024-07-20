@@ -10,12 +10,11 @@
 		<meta property="fc:frame" content="vNext" />
 		<meta property="fc:frame:image" content="http://localhost:80/start.png" />
 
-
-        <meta property="fc:frame:button:1" content="Mint" />
-        <meta name="fc:frame:button:1:action" content="link"/>
-        <meta name="fc:frame:button:1:target" content="https://mint.pentacletarot.com/"/>
-<!--         <meta name="fc:frame:button:1:post_url" content="https://mint.pentacletarot.com/" />
- -->
+        <meta name="fc:frame:button:1" content="Mint" />
+        <meta name="fc:frame:button:1:action" content="mint" />
+        <meta
+        name="fc:frame:button:1:target"
+        content="eip155:8453:0x1fB6AbC7C35D059Be6C2eF5Df5824BdAb309eD6C"/>
 
         <meta property="fc:frame:button:2" content="How it works" />
         <meta name="fc:frame:button:2:action" content="post"/>
